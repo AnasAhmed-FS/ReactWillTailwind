@@ -6,13 +6,13 @@ import { TailWindCss } from "./components/TailWindCss";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-700 ">
+    <div className=" bg-gradient-to-r from-slate-900 via-slate-800 to-slate-700 text-white ">
       <Router>
         <Navpar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/tail" element={<TailWindCss />} />
+          <Route index path="/ReactWillTailwind/" element={<Home />} />
+          <Route path="/ReactWillTailwind/about" element={<About />} />
+          <Route path="/ReactWillTailwind/tail" element={<TailWindCss />} />
         </Routes>
       </Router>
     </div>

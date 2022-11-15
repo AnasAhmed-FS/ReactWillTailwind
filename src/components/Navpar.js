@@ -44,14 +44,18 @@ export default function Navpar() {
             aria-label="main"
           >
             <div className="text-slate-50 font-mono md:mx-2 p-3 rounded-lg">
-              <NavLink className="rounded-lg hover:bg-sky-700 p-2 " to={"/"}>
+              <NavLink
+                className="rounded-lg hover:bg-sky-700 p-2 "
+                to={"/ReactWillTailwind"}
+                end
+              >
                 HOME
               </NavLink>
             </div>
             <div className="text-slate-50 font-mono md:mx-2 p-3 rounded-lg">
               <NavLink
                 className="rounded-lg hover:bg-sky-700 p-2 transition  "
-                to={"/about"}
+                to={"/ReactWillTailwind/about"}
               >
                 About
               </NavLink>
@@ -59,7 +63,7 @@ export default function Navpar() {
             <div className="text-slate-50 font-mono md:mx-2 p-3 rounded-lg">
               <NavLink
                 className="rounded-lg hover:bg-sky-700 p-2 transition  "
-                to={"/tail"}
+                to={"/ReactWillTailwind/tail"}
               >
                 TailWindCss
               </NavLink>
