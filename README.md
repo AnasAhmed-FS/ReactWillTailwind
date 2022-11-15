@@ -1,7 +1,11 @@
 # To run The React projet in github, Using these steps:
 
 1- install gh-pages packeges
-2- Write these dependency in #package.json:- \* "homepage": "https://UserName_github.github.io/ReposName/", \* "scripts": {
+2- Write these dependency in #package.json:-
+
+\* "homepage": "https://UserName_github.github.io/ReposName/",
+
+\* "scripts": {
 "predeploy": "npm run build",
 "deploy": "gh-pages -d build"
 },
