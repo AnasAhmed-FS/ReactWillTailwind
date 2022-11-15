@@ -78,14 +78,17 @@ export default function Navpar() {
         >
           <nav className="flex min-h-screen flex-col items-center py-5">
             <div className="text-slate-50 font-mono  text-2xl p-3 rounded-lg">
-              <NavLink className="rounded-lg hover:bg-sky-700 p-2 " to={"/"}>
+              <NavLink
+                className="rounded-lg hover:bg-sky-700 p-2 "
+                to={"/ReactWillTailwind"}
+              >
                 HOME
               </NavLink>
             </div>
             <div className="text-slate-50 font-mono  text-2xl p-3 rounded-lg">
               <NavLink
                 className="rounded-lg hover:bg-sky-700 p-2 transition  "
-                to={"/about"}
+                to={"/ReactWillTailwind/about"}
               >
                 About
               </NavLink>
@@ -93,7 +96,7 @@ export default function Navpar() {
             <div className="text-slate-50 font-mono  text-2xl p-3 rounded-lg">
               <NavLink
                 className="rounded-lg hover:bg-sky-700 p-2 transition  "
-                to={"/tail"}
+                to={"/ReactWillTailwind/tail"}
               >
                 TailWindCss
               </NavLink>
