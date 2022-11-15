@@ -81,6 +81,7 @@ export default function Navpar() {
               <NavLink
                 className="rounded-lg hover:bg-sky-700 p-2 "
                 to={"/ReactWillTailwind"}
+                end
               >
                 HOME
               </NavLink>
