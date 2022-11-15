@@ -80,8 +80,8 @@ export default function Navpar() {
             <div className="text-slate-50 font-mono  text-2xl p-3 rounded-lg">
               <NavLink
                 className="rounded-lg hover:bg-sky-700 p-2 "
-                to={"/ReactWillTailwind"}
                 end
+                to={"/ReactWillTailwind"}
               >
                 HOME
               </NavLink>

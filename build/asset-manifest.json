@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/ReactWillTailwind/static/css/main.a89fe026.css",
-    "main.js": "/ReactWillTailwind/static/js/main.941e26f2.js",
+    "main.js": "/ReactWillTailwind/static/js/main.b968d12a.js",
     "static/js/787.14b80927.chunk.js": "/ReactWillTailwind/static/js/787.14b80927.chunk.js",
     "static/media/ES6-01.svg": "/ReactWillTailwind/static/media/ES6-01.91b77b21f53c8b29161cda63beb5578e.svg",
     "index.html": "/ReactWillTailwind/index.html",
     "static/media/tailWind.svg": "/ReactWillTailwind/static/media/tailWind.79614a5f61617ba49a0891494521226b.svg",
     "main.a89fe026.css.map": "/ReactWillTailwind/static/css/main.a89fe026.css.map",
-    "main.941e26f2.js.map": "/ReactWillTailwind/static/js/main.941e26f2.js.map",
+    "main.b968d12a.js.map": "/ReactWillTailwind/static/js/main.b968d12a.js.map",
     "787.14b80927.chunk.js.map": "/ReactWillTailwind/static/js/787.14b80927.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a89fe026.css",
-    "static/js/main.941e26f2.js"
+    "static/js/main.b968d12a.js"
   ]
 }
