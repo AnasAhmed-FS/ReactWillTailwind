@@ -6,7 +6,7 @@ import { TailWindCss } from "./components/TailWindCss";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <div className="scroll-smooth  ">
+    <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-700 ">
       <Router>
         <Navpar />
         <Routes>
