@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Navpar />
         <Routes>
-          <Route index path="/ReactWillTailwind/" element={<Home />} />
+          <Route exact path="/ReactWillTailwind/" element={<Home />} />
           <Route path="/ReactWillTailwind/about" element={<About />} />
           <Route path="/ReactWillTailwind/tail" element={<TailWindCss />} />
         </Routes>

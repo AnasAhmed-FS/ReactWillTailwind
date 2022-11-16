@@ -12,7 +12,7 @@ export default function Home() {
     // 2- Sub Titles --> font-mono,
     // 3- Describe Titles --> serif */
 
-    <div className=" ">
+    <div className="  mt-20">
       {/* First Section React */}
       <header
         className="flex flex-col-reverse

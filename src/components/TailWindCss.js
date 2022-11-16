@@ -3,7 +3,7 @@ import ImgLogo from "../img/logo512.png";
 
 export const TailWindCss = () => {
   return (
-    <div>
+    <div className="mt-40">
       {/* First Element */}
       <div class="md:flex   max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
         <div class="md:shrink-0">

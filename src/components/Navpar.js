@@ -18,14 +18,18 @@ export default function Navpar() {
     <div>
       <div
         className="bg-slate-700 
-      text-white 
+      text-white relative  
       "
       >
         <section
-          className="max-w-4xl
+          className=" 
          mx-auto 
          flex justify-between 
-         p-4"
+         p-4
+         fixed top-0 left-0 right-0 z-100
+         bg-slate-700 
+        
+         "
         >
           <h1 className="text-2xl sm:pt-2 font-medium">
             <a href="#hero">ReactTailwindCss</a>
@@ -74,7 +78,7 @@ export default function Navpar() {
         <section
           id="mobile-menu"
           onClick={NavPar}
-          className=" absolute    hidden w-full     flex-col bg-black text-5xl"
+          className=" fixed top-11 left-0 right-0    hidden w-full     flex-col bg-black text-5xl"
         >
           <nav className="flex min-h-screen flex-col items-center py-5">
             <div className="text-slate-50 font-mono  text-2xl p-3 rounded-lg">
