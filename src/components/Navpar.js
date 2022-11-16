@@ -18,17 +18,15 @@ export default function Navpar() {
     <div>
       <div
         className="bg-slate-700 
-      text-white relative  
+      text-white relative    
       "
       >
         <section
-          className=" 
-         mx-auto 
-         flex justify-between 
+          className="  
+         flex justify-between  sm:justify-around 
          p-4
          fixed top-0 left-0 right-0 z-100
-         bg-slate-700 
-        
+         bg-slate-700   
          "
         >
           <h1 className="text-2xl sm:pt-2 font-medium">
@@ -50,8 +48,8 @@ export default function Navpar() {
             <div className="text-slate-50 font-mono md:mx-2 p-3 rounded-lg">
               <NavLink
                 className="rounded-lg hover:bg-sky-700 p-2 "
-                to={"/ReactWillTailwind"}
                 end
+                to={"/ReactWillTailwind"}
               >
                 HOME
               </NavLink>
@@ -78,7 +76,7 @@ export default function Navpar() {
         <section
           id="mobile-menu"
           onClick={NavPar}
-          className=" fixed top-11 left-0 right-0    hidden w-full     flex-col bg-black text-5xl"
+          className=" fixed top-12 left-0 right-0    hidden w-full     flex-col bg-black text-5xl"
         >
           <nav className="flex min-h-screen flex-col items-center py-5">
             <div className="text-slate-50 font-mono  text-2xl p-3 rounded-lg">
