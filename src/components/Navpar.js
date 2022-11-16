@@ -17,8 +17,8 @@ export default function Navpar() {
   return (
     <div>
       <div
-        className="bg-slate-700 
-      text-white relative    
+        className="bg-slate-700 text-white opacity-95 z-100 
+      relative    
       "
       >
         <section
