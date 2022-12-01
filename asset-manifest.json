@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ReactWillTailwind/static/css/main.7e74e28d.css",
-    "main.js": "/ReactWillTailwind/static/js/main.6b855ef1.js",
+    "main.css": "/ReactWillTailwind/static/css/main.2777fd6d.css",
+    "main.js": "/ReactWillTailwind/static/js/main.d0bf1f47.js",
     "static/js/787.14b80927.chunk.js": "/ReactWillTailwind/static/js/787.14b80927.chunk.js",
     "static/media/ES6-01.svg": "/ReactWillTailwind/static/media/ES6-01.91b77b21f53c8b29161cda63beb5578e.svg",
     "index.html": "/ReactWillTailwind/index.html",
     "static/media/tailWind.svg": "/ReactWillTailwind/static/media/tailWind.79614a5f61617ba49a0891494521226b.svg",
-    "main.7e74e28d.css.map": "/ReactWillTailwind/static/css/main.7e74e28d.css.map",
-    "main.6b855ef1.js.map": "/ReactWillTailwind/static/js/main.6b855ef1.js.map",
+    "main.2777fd6d.css.map": "/ReactWillTailwind/static/css/main.2777fd6d.css.map",
+    "main.d0bf1f47.js.map": "/ReactWillTailwind/static/js/main.d0bf1f47.js.map",
     "787.14b80927.chunk.js.map": "/ReactWillTailwind/static/js/787.14b80927.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e74e28d.css",
-    "static/js/main.6b855ef1.js"
+    "static/css/main.2777fd6d.css",
+    "static/js/main.d0bf1f47.js"
   ]
 }
